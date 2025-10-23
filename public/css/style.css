@@ -1,0 +1,44 @@
+:root {
+    --purple: #6f42c1;
+    --dark: #0b0b0b;
+}
+
+body {
+    background: linear-gradient(180deg, #070617 0%, #120a2a 100%);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-purple {
+    background-color: var(--purple) !important;
+}
+
+.card-dark {
+    background: #121023;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 10px;
+    color: #fff;
+}
+
+a.nav-link {
+    color: #eae2ff;
+    transition: 0.2s;
+}
+
+a.nav-link:hover {
+    color: #fff;
+}
+
+.btn-primary, .btn-success {
+    background-color: var(--purple);
+    border: none;
+}
+
+.btn-primary:hover, .btn-success:hover {
+    background-color: #8a5cff;
+}
+
+footer {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    padding: 10px 0;
+}
